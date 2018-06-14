@@ -1,0 +1,4 @@
+﻿interface IProjectileType
+{
+    void Fire();
+}
