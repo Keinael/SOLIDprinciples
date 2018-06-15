@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 
-public class CannonballAction : MonoBehaviour, IProjectileType
+namespace SingleResponsibilityPrinciple.Scripts
 {
-    public void Fire()
+    public class CannonballAction : MonoBehaviour, IProjectileType
     {
-        print("You shoot with cannonball");
+        public void Fire()
+        {
+            print("You shoot with cannonball");
+        }
     }
 }

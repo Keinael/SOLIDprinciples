@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 
-public class BulletFireAction : MonoBehaviour, IProjectileType
+namespace SingleResponsibilityPrinciple.Scripts
 {
-    public void Fire()
+    public class BulletFireAction : MonoBehaviour, IProjectileType
     {
-        print("You shoot with bullet");
+        public void Fire()
+        {
+            print("You shoot with bullet");
+        }
     }
 }

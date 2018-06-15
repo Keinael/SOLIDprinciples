@@ -1,19 +1,22 @@
 ﻿using UnityEngine;
 
-public class Cannon : MonoBehaviour
+namespace SingleResponsibilityPrinciple.Scripts
 {
-    public BulletFireAction BulletFireAction;
-    public CannonballAction CannonballAction;
-   
-    private void Start()
+    public class Cannon : MonoBehaviour
     {
-        Fire(BulletFireAction);
-        Fire(CannonballAction);
-    }
+        public BulletFireAction BulletFireAction;
+        public CannonballAction CannonballAction;
 
-    private void Fire(IProjectileType bulletsType)
-    {
-        print("You shooting...");
-        bulletsType.Fire();
+        private void Start()
+        {
+            Fire(BulletFireAction);
+            Fire(CannonballAction);
+        }
+
+        private void Fire(IProjectileType bulletsType)
+        {
+            print("You shooting...");
+            bulletsType.Fire();
+        }
     }
 }

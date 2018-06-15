@@ -1,4 +1,7 @@
-﻿interface IProjectileType
+﻿namespace SingleResponsibilityPrinciple.Scripts
 {
-    void Fire();
+    interface IProjectileType
+    {
+        void Fire();
+    }
 }
