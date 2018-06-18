@@ -1,7 +1,7 @@
-﻿using InterfaceSegregation.Scripts.Interfaces;
+﻿using InterfaceSegregationPrinciple.Scripts.Interfaces;
 using UnityEngine;
 
-namespace InterfaceSegregation.Scripts
+namespace InterfaceSegregationPrinciple.Scripts
 {
     public class Smartphone : MonoBehaviour, ITakePhoto, IWeb, IApps, ICall
     {

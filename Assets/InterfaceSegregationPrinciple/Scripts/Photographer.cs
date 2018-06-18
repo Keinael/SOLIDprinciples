@@ -1,14 +1,14 @@
-﻿using InterfaceSegregation.Scripts.Interfaces;
+﻿using InterfaceSegregationPrinciple.Scripts.Interfaces;
 using UnityEngine;
 
-namespace InterfaceSegregation.Scripts
+namespace InterfaceSegregationPrinciple.Scripts
 {
     /// <summary>
     /// Adding single functional interfaces to void forced dependency in functionality implementation 
     /// </summary>
     public class Photographer : MonoBehaviour
     {
-        public Camera Cam;
+        public PhotoCam Cam;
         public Smartphone Phone;
 
         private void Start()

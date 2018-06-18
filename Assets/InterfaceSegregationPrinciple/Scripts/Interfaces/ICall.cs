@@ -1,4 +1,4 @@
-﻿namespace InterfaceSegregation.Scripts.Interfaces
+﻿namespace InterfaceSegregationPrinciple.Scripts.Interfaces
 {
     public interface ICall
     {

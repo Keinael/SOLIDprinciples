@@ -8,9 +8,7 @@ namespace OpenClosed.Scripts
     public class Cannon : MonoBehaviour
     {
         public CannonballUsingAction CannonballUsingAction;
-        public LaserUsingAction LaserUsingAction;
-
-        private List<BulletsUsingActions> _bulletsUsingActions = new List<BulletsUsingActions>();
+        public LaserUsingAction LaserUsingAction; private List<BulletsUsingActions> _bulletsUsingActions = new List<BulletsUsingActions>();
 
         private void Start()
         {
